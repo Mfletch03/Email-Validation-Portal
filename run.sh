@@ -1,2 +1,2 @@
 #!/bin/bash
-mvn -f Email_checker/pom.xml spring-boot:run
+mvn -f Validation_Portal/pom.xml spring-boot:run
