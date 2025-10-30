@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Validation Portal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f6fa;
+      text-align: center;
+      padding-top: 100px;
+    }
+    h1 {
+      color: #2f3640;
+      font-size: 2em;
+    }
+    .buttons {
+      margin-top: 30px;
+    }
+    a {
+      display: inline-block;
+      background-color: #273c75;
+      color: white;
+      padding: 12px 25px;
+      margin: 10px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 1.1em;
+      transition: background-color 0.3s ease;
+    }
+    a:hover {
+      background-color: #40739e;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to the Validation Portal</h1>
+  <p>Select what you’d like to check:</p>
+  <div class="buttons">
+    <a href="/email-check">Check Email Validity</a>
+    <a href="/password-check">Check Password Strength</a>
+  </div>
+</body>
+</html>
