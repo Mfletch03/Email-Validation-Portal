@@ -1,4 +1,4 @@
-# 🧪 CSE2102 Lab 6 — Validation Portal
+# Email Validation Portal
 
 This project is a **Spring Boot web application** that validates email addresses and checks password strength through a web interface.  
 It demonstrates key backend concepts such as **form input handling**, **validation logic**, and the **Spring Boot MVC architecture**.
