@@ -18,15 +18,28 @@ It demonstrates key backend concepts such as **form input handling**, **validati
 - Includes simple scripts (`run.sh` and `test.sh`) for running and testing the project  
 
 ---
+## Prerequisites
+
+* Java 17 or newer is required (the project is built with Spring Boot 3 / Maven 4).
+
+On Ubuntu/Debian you can install Java 17 and Maven 4 it with:
+
+```bash
+sudo apt update
+sudo apt install -y openjdk-17-jdk
+mvn install
+```
+
 
 ## ▶️ How to Run
 
-1. **Open the GitHub Codespace** for this project  
-2. In the **terminal**, run one of the following commands:
+1. **Open the GitHub Codespace** for this project.
+2. make sure the **Prerequisites** are met
+3. In the **terminal**, run one of the following commands:
    - `./run.sh` — starts the Spring Boot web server  
    - `./test.sh` — runs all project test cases  
 
-3. Once the web server starts, the terminal will display a link that looks like this:
+4. Once the web server starts, the terminal will display a link that looks like this:
 
 **example of the link**
 -------------------------------------------
